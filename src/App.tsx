@@ -1,11 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
+import { ParallaxImageRender } from "./components/ParallaxImageRender";
 import { ParallaxRender } from "./components/ParallaxRender";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return <ParallaxRender />;
 }
 
