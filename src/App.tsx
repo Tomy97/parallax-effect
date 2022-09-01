@@ -1,9 +1,8 @@
 import "./App.css";
-import { ParallaxImageRender } from "./components/ParallaxImageRender";
-import { ParallaxRender } from "./components/ParallaxRender";
+import { GsapScroll } from "./components/GsapScroll";
 
 function App() {
-  return <ParallaxRender />;
+  return <GsapScroll />;
 }
 
 export default App;
